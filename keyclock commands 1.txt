@@ -1,0 +1,206 @@
+C:\files-pt\keycloak-18.0.0\bin
+
+set JAVA_HOME=C:\files-pt\openjdk-11
+
+/////////////////////////C:\files-pt\openjdk-11
+
+echo %JAVA_HOME%
+
+kc.bat start-dev --http-port=8180
+
+
+
+curl -I http://10.101.120.179:8050/service/support/ptapp-stop 
+
+
+curl -I http://10.101.120.179:8050/service/support/ptapp
+
+
+http://10.101.120.179:8046/
+
+
+npm add @angular/material  
+npm install @angular/material
+
+npm uninstall @angular/material@15.1.5
+npm uninstall @angular/material
+
+npm install @angular/material@6.4.7
+
+
+"@angular/material": "^15.1.5",
+
+
+npm install @angular/material@14.2.7
+
+npm install @angular/cdk@14.2.7
+
+
+
+{
+    "port":"8046",
+    "ip":"10.101.120.179",
+    "protocol":"http",
+
+    "keycloakUrl":"http://10.101.120.179:8048/",
+    "keycloakrealm": "angular-web",
+    "keycloakClientId":"angular-web-client",
+
+    "appName": "Pricing Transparency",
+    "userId": "rohit"
+}
+
+
+
+{
+    "port":"8080/api/v1",
+    "ip":"localhost",
+    "protocol":"http",
+
+    "keycloakUrl":"http://localhost:8180/",
+    "keycloakrealm": "angular-web",
+    "keycloakClientId":"angular-web-client",
+
+    "appName": "Pricing Transparency",
+    "userId": "rohit"
+}
+
+
+{
+    "port":"8080/api/v1",
+    "ip":"localhost",
+    "protocol":"http",
+
+    "keycloakUrl":"http://10.101.120.179:8048/",
+    "keycloakrealm": "healthcare-vbc",
+    "keycloakClientId":"pricing-client2",
+
+    "appName": "Pricing Transparency",
+    "userId": "rohit"
+}
+
+java - jar pricingtransparency-0.0.1-SNAPSHOT.jar
+
+java -jar pricingtransparency-0.0.1-SNAPSHOT.jar
+
+
+
+
+[value]="date1"
+
+
+
+[ngClass]="currentLocality"
+
+
+<mat-select [ngClass]="currentLocality" placeholder="Select Locality" (click)="showClassLocality()">
+                        <mat-option *ngFor="let locality of localityapiResults; let i = index" [value]="locality" (click)="selectLocality(locality , locality.identifier)">{{locality.localityNumberName}}</mat-option>
+                    </mat-select>
+
+
+
+
+
+
+
+
+172.*;*.ultimatix.*;*INM*.TCS.COM;*IND*.TCS.COM;*INC*.TCS.COM;*INH*.TCS.COM;*INB*.TCS.COM;*INK*.tcs.com;buzz.tcs.com;voip.tcs.com;*.eurja*;*supportcentral.tcs.com;sg*.tcs.com;us*.tcs.com;uk*.tcs.com;*recruitment*;*careers*;157.*;sps*;ftc*;tw.tcs.com;edge.tcs.com;inchnveloa.tcs.com;*.india.tcs.com;ideastorm.tcs.com;securityportal.tcs.com;isisd.tcs.com;meeting.tcs.com;*.video.tcs.com;mscommunityportal.tcs.com;search.tdcustagweb.tcs.com;Web2labs.tcs.com;academia.tcs.com;*tcs-helpdesk*;ilpcms.tcs.com;campustaprocess.tcs.com;*tcsbas.tcsbpo*;globalmeet.tcs.com;bpoonline.tcs.com;*hrservicesonline.com*;*customersurvey.tcs.com*;mstream*;vstream.tcs.com;tcsmapagile.tcs.com;custportaluat.tcs.*;nextstep.tcs.com;knowfs.tcs.com;*finterestgroup.com;customerportal.tcs.*;*alumniportal.tcs.com*;outlook.tcs.com;mail.tcs.com;Autodiscover.tcs.com;inmumexc01.tcs.com;inmumexc02.tcs.com;inmumzm01.tcs.com;inmumzm02.tcs.com;ecd.tcs.com;gbamsuat.tcs.com;gbams.tcs.com;vmsprocurement.tcs.com;vms.tcs.com;boduat.tcs.com;*.BPO.TCS.COM*;avchat.tcs.com;meetingav.tcs.com;conference1.tcs.com;colosseum.tcs.com;lifeline.tcs.com;fit4life.tcs.com;tqas.tcs.com;irm.tcs.com;irmdr.tcs.com;dominoconnect.tcs.com;isprojects.tcs.com;secureerase.tcs.com;webmail*.tcs.com;vlabsmumbai.tcs.com;is-connect.tcs.com;tob.boadapp.tcs.com;bodapp.tcs.com;bod.tcs.com;grodev.tcs.com;IS-Backup.tcs.com;*.itfrontier.co.jp;vlabschennai.tcs.com;mchat.tcs.com;10.*;eventsdev.tcs.com;pim.tcs.com;*.tcsion.com;*.digialm.com;*.workspace.tcs.com;*appvol.india.tcs.com;stadvance.tcs.com;eventsdemo.tcs.com;events.tcs.com;bmsportal.tcs.com;optselfservice.tcs.com;meghaas-access.tcs.com;eventsuat.tcs.com;*.tcsionhub.in;*.tcsionhub.uk;tgim*;163.122.229.*;*cloudvistara*;securepam.tcs.com;*.tcsgsp.in;*.Fresco.me;excellence.tcs.com;cto-cybersecurityresearch.tcs.com*;agilespace.tcs.com;occasions.tcs.com;192.*;*hcp*;weave.tcs.com;*.iur.ls;client.threatpulse.net;*cloudnext.tcs.com;*.fs.tcs.com*;otpselfservice.tcs.com;*.mdm.tcs.com;*.tcsghdpcce.*;*.ext-ultimatix.net;*.tcsapps.in;*.tcsapps.com
+
+
+
+
+
+
+
+
+
+ <!-- <ng-multiselect-dropdown [placeholder]="'custom placeholder'" [settings]="dropdownSettings"
+                [data]="dropdownList" [(ngModel)]="selectedItems" (onSelect)="onItemSelect($event)"
+                (onSelectAll)="onSelectAll($event)">
+            </ng-multiselect-dropdown> -->
+
+
+            <!-- <div class="pmDropServies">
+                <div class="pmStateServies">
+                    State
+                    <mat-select class="pmStateDropdown" (click)="showClassState()" placeholder="Select State">
+                        <mat-option *ngFor="let state of stateapiResults; let i = index" [value]="state"
+                            (click)="selectValue(state ,state.stateId)">{{state.stateCodeName}}</mat-option>
+                    </mat-select>
+                </div>
+                <div class="pmGreenTickState" *ngIf="showGreenTickState"></div>
+            </div> -->
+
+            <!-- <mat-checkbox (click)="initialdepartmentgraph(Documentdata,categoryData2, date2String)"
+                class="example-margin" [checked]="allComplete" [color]="tasks.color" [indeterminate]="someComplete()"
+                (change)="setAll($event.checked)" style="margin-left: 15px; font-family: 'Poppins' !important;">
+                {{tasks.name}}
+            </mat-checkbox> -->
+
+
+            <div class="pmDropServies">
+                <div class="pmStateServies">
+                    State
+                <mat-form-field  floatLabel=never >
+                    <mat-select panelClass="pmStateDropdown"  
+                    placeholder="Select State" multiple>
+                        <span class="">
+                            <mat-checkbox>
+                                {{tasks.name}}
+                            </mat-checkbox>
+                        </span>
+                        
+                        <mat-option *ngFor="let state of stateapiResults; let i = index" [value]="state"
+                        (click)="selectValue(state ,state.stateId)">
+                            
+                                <mat-checkbox [(ngModel)]="subtask.completed"
+                                    [disabled]="subtask.completed && disableDepCheckbox()" [color]="subtask.color"
+                                     (ngModelChange)="updateAllComplete()">
+                                    {{subtask.name}}
+                                </mat-checkbox>
+                           
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+
+
+::-webkit-input-placeholder
+{  
+  color:#ABB6BF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+172.*;*.ultimatix.*;*INM*.TCS.COM;*IND*.TCS.COM;*INC*.TCS.COM;*INH*.TCS.COM;*INB*.TCS.COM;*INK*.tcs.com;buzz.tcs.com;voip.tcs.com;*.eurja*;*supportcentral.tcs.com;news.tcs.com;sg*.tcs.com;us*.tcs.com;uk*.tcs.com;*recruitment*;*careers*;157.*;sps*;ftc*;tw.tcs.com;edge.tcs.com;inchnveloa.tcs.com;*.india.tcs.com;ideastorm.tcs.com;securityportal.tcs.com;isisd.tcs.com;meeting.tcs.com;*video.tcs.com;mscommunityportal.tcs.com;search.tdcustagweb.tcs.com;Web2labs.tcs.com;academia.tcs.com;photo.tcs.com;*tcs-helpdesk*;ilpcms.tcs.com;campustaprocess.tcs.com;*tcsbas.tcsbpo*;globalmeet.tcs.com;bpoonline.tcs.com;*hrservicesonline.com*;*customersurvey.tcs.com*;mstream*;vstream.tcs.com;tcsmapagile.tcs.com;custportaluat.tcs.*;nextstep.tcs.com;knowfs.tcs.com;conference.tcs.com;*finterestgroup.com;customerportal.tcs.*;*alumniportal.tcs.com*;outlook.tcs.com;mail.tcs.com;Autodiscover.tcs.com;inmumexc01.tcs.com;inmumexc02.tcs.com;inmumzm01.tcs.com;inmumzm02.tcs.com;ecd.tcs.com;cas.tcs.com;gbamsuat.tcs.com;gbams.tcs.com;vmsprocurement.tcs.com;vms.tcs.com;boduat.tcs.com;*.BPO.TCS.COM*;i-asuhplabvm18.tcsasuhplab.com;avchat.tcs.com;meetingav.tcs.com;conference1.tcs.com;colosseum.tcs.com;lifeline.tcs.com;fit4life.tcs.com;tqas.tcs.com;irm.tcs.com;irmdr.tcs.com;dominoconnect.tcs.com;isprojects.tcs.com;secureerase.tcs.com;webmail.tcs.com;vlabsmumbai.tcs.com;is-connect.tcs.com;bodapp.tcs.com;bod.tcs.com;tob.boadapp.tcs.com;grodev.tcs.com;IS-Backup.tcs.com;*.itfrontier.co.jp;vlabschennai.tcs.com;mchat.tcs.com;10.*;*.tcsion.com;*.digialm.com;*.workspace.tcs.com;events.tcs.com;eventsdemo.tcs.com;bmsportal.tcs.com;optselfservice.tcs.com;meghaas-access.tcs.com;eventsuat.tcs.com;*.tcsionhub.in;*.tcsionhub.uk;163.122.229.*;*cloudvistara*;securepam.tcs.com;*.tcsgsp.in;*.Fresco.me;excellence.tcs.com;*hcp.*;cto-cybersecurityresearch.tcs.com*;occasions.tcs.com;*.iur.ls;*.cloudnext.tcs.com;*.fs.tcs.com;otpselfservice.tcs.com;*.tcsghdpcce.*;*.mdm.tcs.com;cdct2fa1.india.tcs.com
+
+
+
+
+
+
+
+
+
+
+
+
+this.dialog.open(this.secondDialog, {      width: '', 
+     data: "",   
+   disableClose:true, 
+     autoFocus: false, 
+    panelClass: 'custom-recentlyAccessed'
+    });

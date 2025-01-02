@@ -1,0 +1,36 @@
+
+E:\Dev-Team\repo\Comp Hub IPSAFE\API\
+
+To Update API Build :- mvn clean install
+
+To Generate UI Build :-
+1. In Node CMD, set path=%path%;C:\Users\1251795\AppData\Roaming\npm
+2. then, cd E:\Dev-Team\repo\Comp Hub IPSAFE\UI Code
+3. then, E:
+4. ng build --base-href="/" or npm run ng build --base-href="/" 
+
+UI Build :- E:\Dev-Team\repo\Comp Hub IPSAFE\UI Code\dist
+
+174 Machine Login Credentials :-
+Username :- root@192.168.1.101
+Password :- root123
+
+/home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/webapps
+
+To Stop the 174 Server :- /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/bin/shutdown.sh
+
+
+
+rm -rf /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/webapps/ROOT/
+
+Copy compliance-hub folder from E:\Dev-Team\repo\Comp Hub IPSAFE\UI Code\dist RDP to /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/webapps folder in 174 Machine and one copying is done rename compliance-hub folder to ROOT.
+
+"E:\Dev-Team\repo\Comp Hub IPSAFE\API Code\compliancehub\target\compliancehub-0.0.1-SNAPSHOT
+
+Copy compliancehub-0.0.1-SNAPSHOT folder from E:\Dev-Team\repo\Comp Hub IPSAFE\API Code\compliancehub\target\ RDP to /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/webapps folder in 174 Machine.
+
+Copy applicationProperties.json file from /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/ folder in 174 Machine and paste it to /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/webapps/ROOT/assets/json folder in 174 Machine.
+
+Copy application.properties, application-prod-https.properties, logback.xml files from /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/ folder in 174 Machine and paste it to /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/webapps/compliancehub-0.0.1-SNAPSHOT/WEB-INF/classes folder in 174 Machine.
+
+To Start the 174 Server :- /home/qa_instances/comp_hub_ipsafe/tomcat_9_0_62/bin/startup.sh

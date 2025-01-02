@@ -1,0 +1,50 @@
+First create the folder: cd /var/svn/repos/ for the repo you want to creae
+
+
+cd /var/svn/repos/
+
+
+mkdir testmay
+ svnadmin create testmay
+vi testmay/conf/passwd
+vi testmay/conf/authz
+vi prior-auth-repo/conf/svnserve.conf
+
+
+svn://10.101.120.175/testmay/release1
+
+______________________________________
+
+first open the putty and give the host name : root@10.101.120.175
+
+Default Settings : 10.101.120.175
+
+It will open the putty command prompt window and give the PASSWORD (password should be confidential)
+
+
+and then give the commands 
+
+pwd
+ps -aux|grep svn 
+ls -lrt
+
+mkdir testmay
+ svnadmin create testmay
+vi testjune/conf/passwd
+vi testjune/conf/authz
+vi testjune/conf/svnserve.conf
+
+
+ls /var/svn/repos/
+
+rm -r testmay
+
+rm -rf testmay
+
+dir
+
+svnadmin create testjune
+
+rm -r testjune
+
+rm -rf testjune
